@@ -1,0 +1,109 @@
+*  {
+    text-decoration: none;
+    color: black;
+}
+body {
+    background: url(../img/스파이더맨이력서.jpg) no-repeat center;
+    background-size: cover;
+    font-family: 'netmarbleM';    
+}
+
+@font-face {
+    font-family: 'netmarbleM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.1/netmarbleM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+div{
+    padding: 0;
+    margin-bottom: 40px;
+   
+}
+#login{
+    text-align:left;
+    width: 100px;
+    height: 50px;
+    margin-left: 15px;
+    float: left;
+    margin-right: 100px;
+}
+#login tr:hover{
+    transition-duration: 0.5s;
+    transform: translate(25px);
+}
+#login a{
+    font-weight: bold;
+    position: relative;
+    padding: 0;
+    top: 10px;
+}
+.menu{
+    padding: 10px;
+}
+.menu tr:hover{
+    transition-duration: 0.5s;
+    transform: translate(25px);
+}
+h2{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 0 auto;
+}
+#gif{
+  position: absolute;
+}
+
+#red{
+    color: red;
+}
+#blue{
+    color: blue;
+}
+#white{
+    color:white;
+}
+
+
+#main {
+	-webkit-animation: mainani 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+	        animation: mainani 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+}
+
+@-webkit-keyframes mainani {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(-300px);
+              transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes mainani {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(-300px);
+              transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+
+.time > p > input[type="button1"]{width: 50px ; height: 50px; text-align: center; background-color: rgb(46, 49, 206);
+    color: white; border :none;  border-radius: 5%; font-size: 24px; font-weight: bold;}
+
+  

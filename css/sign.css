@@ -1,0 +1,222 @@
+body{
+    background: url(../img/스파이더맨이력서.jpg) left top no-repeat fixed;
+    background-size: cover; 
+}
+div{
+    padding: 90px;
+    margin: 0 auto;
+    width: 450px;
+    height: 0px;
+    text-align: left;
+}
+input{
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+input:focus{
+    background-color: rgba(5, 5, 5, 0.116);
+}
+select{
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#login{
+    padding: 0px;
+    text-align: right;
+}
+#login a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    margin: 0 10px;
+}
+#login td:hover{
+    transform: scale(1.1);
+}
+legend{
+    color: black;
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+}
+fieldset{
+    background-color: rgb(248, 244, 244, 0.2);
+}
+fieldset > p:nth-child(2){ 
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+fieldset > p:nth-child(3){
+    margin: 5px 0 0 0;
+    font-weight: bolder;
+    text-indent: 20px;
+}
+fieldset > p:nth-child(3) input:nth-child(1){
+    width: 250px;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+fieldset > p:nth-child(3) input:nth-child(2){
+    width: 100px;
+    padding: 4px 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer; 
+}
+fieldset > p:nth-child(3) input:nth-child(2):hover{
+    transition-duration: 0.2s;
+    transform: scale(1.1);
+}
+fieldset > p:nth-child(4){ 
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+fieldset > p:nth-child(5){
+    margin: 0;
+    font-weight: bolder;
+    text-indent: 20px;
+}
+fieldset > p:nth-child(5) input{
+    width: 250px;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+fieldset > p:nth-child(5) img{
+    cursor: pointer;
+}
+fieldset > p:nth-child(5) img:hover{
+    transition-duration: 0.5s;
+    transform: scale(1.4);
+}
+fieldset > p:nth-child(5) img:hover + span{
+    display: inline-block;
+}
+fieldset > p:nth-child(5) span{
+    display: none;   
+    position: relative;
+    color: red;
+    font-size: 12px;
+    font-weight: 3px;
+}
+fieldset > p:nth-child(6){ 
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+fieldset > p:nth-child(7){
+    margin: 5px 0 0 0;
+    font-weight: bolder;
+    text-indent: 20px;
+}
+fieldset > p:nth-child(7) input{
+    width: 250px;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+fieldset > p:nth-child(8){ 
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+fieldset > p:nth-child(9){
+    margin: 5px 0 0 0;
+    font-weight: bolder;
+    text-indent: 20px;
+}
+fieldset > p:nth-child(9) input{
+    width: 250px;
+    font-size: 18px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+fieldset > p:nth-child(10){ 
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+fieldset > p:nth-child(11){
+    margin: 5px 0 0 0;
+    font-weight: bolder;
+    text-indent: 20px;
+}
+fieldset > p:nth-child(11) input{
+    width: 150px;
+    font-size: 14px;
+    padding: 0px 10px;
+}
+fieldset > p:nth-child(12){ 
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+fieldset > p:nth-child(12) label{ 
+    font-size: 16px; 
+    font-weight: 3px;
+}
+fieldset > p:nth-child(13){ 
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+fieldset > p:nth-child(13) span {
+    color: gray;
+    font-size: 16px;
+    font-weight: 3px;
+}
+fieldset > p:nth-child(14){
+    margin: 5px 0 0 0;
+    font-weight: bolder;
+    text-indent: 20px;
+}
+fieldset > p:nth-child(14) input{
+    width: 120px;
+    height: 30px;
+    padding: 0px 5px;
+    font-size: 16px;
+    text-indent: 5px;
+}
+fieldset > p:nth-child(14) select{
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    padding: 0px 5px;
+    
+}
+fieldset > p:nth-child(15){  
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+fieldset > p:nth-child(15) span{
+    color: gray;
+    font-size: 16px;
+    font-weight: 3px;
+}
+fieldset > p:nth-child(16){
+    margin: 5px 0 0 0;
+    font-weight: bolder;
+    text-indent: 20px;
+}
+fieldset > p:nth-child(16) input{
+    width: 300px;
+    padding: 5px 5px;
+    font-size: 20px;
+}
+fieldset > p:nth-child(17){ 
+    text-align: center;
+}
+fieldset > p:nth-child(17) input{
+    width: 100px;
+    padding: 4px 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer; 
+}
+fieldset > p:nth-child(17) input:hover{
+    transition-duration: 0.2s;
+    transform: scale(1.1);
+}

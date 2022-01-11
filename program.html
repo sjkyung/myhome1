@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주민등록번호</title>
+</head>
+<body>
+    <script>
+        'use strict';
+        const num =prompt('주민등록번호를 입력해주세요(하이픈은 - 빼주세요)');
+
+        const num1=[2,3,4,5,6,7,8,9,2,3,4,5];
+        let result=0;
+
+        for(let i=0; i<num1.length; i++){
+            result += num1[i]* parseInt(num.substring(i,i+1)); 
+        }
+        let result1 = 11-result%11;
+        if(result1 >=10){
+            result1%10;
+        }
+        if(result1 == parseInt(num.substring(12))){
+            alert('유효한 주민등록번호 입니다.');
+        }else{
+            alert('유효하지 않은 주민등록번호입니다.-다시입력해주세요');
+            alert('13자리를 입력해주세요');
+        }
+    </script>
+</body>
+</html>
