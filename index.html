@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Spyder</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body> 
+      <div id="login">
+          <table>
+              <tr>
+                  <th><a href="./login.html"><img src="./img/스파이더맨아이콘.png" alt="Login"></a></th>
+                  <td><a href="./login.html">Login</a></td>
+              </tr>
+          </table>
+      </div>
+      <div class="time">
+        <p><input type="button" value="재시작" onclick="startClock()">
+        <input type="button" value="중지" onclick="stopClock()"></p>
+      <div id="result"></div>
+      </div>
+      <div id="gif">
+        <!--<div id="spyder"><img src="./img/스파이더맨애니.gif" alt="스파이더맨애니"></div>-->
+      </div>
+      <div id="main">
+        <h2>Spyderman Homepages</h2>
+    </div>
+      <div class="menu">
+            <table>
+                <tr>
+                    <th><a href="./resume.html"><img src="./img/resume.png"alt="이력서"></a></th>
+                    <td>Resume</td>
+                </tr>
+                <tr>
+                    <th><a href="./favorites.html"><img src="./img/즐겨찾기.png" alt="스타"></a></th>
+                    <td id="red">Favorites</td>
+                </tr>
+                <tr>
+                    <th><a href="./news.html"><img src="./img/뉴스.png" alt="뉴스"></a></th>
+                    <td id="blue">News</td>
+                </tr>
+                <tr>
+                    <th><a href="./page.html"><img src="./img/상세페이지.png" alt="상세페이지"></a></th>
+                    <td>Pages</td>
+                </tr>
+                <tr>
+                    <th><a href="./media.html"><img src="./img/media.png" alt="미디어"></a></th>
+                    <td id="white">Media</td>
+                </tr>
+                <tr>
+                    <th><a href="./tourist.html"><img src="./img/media.png" alt="투어리스트"></a></th>
+                    <td>Tourist in tour</td>
+                </tr>
+                <tr>
+                    <!--
+                    <th><a href="./clone.html"><img src="./img/media.png" alt="클론코딩"></a></th>
+                    <td>clone coding</td> 
+                    -->
+                </tr>
+                <tr>
+                    <th><a href="./program.html"><img src="./img/media.png" alt="투어리스트"></a></th>
+                    <td>주민등록번호</td>
+                </tr>
+            </table>
+      </div>
+      
+      <script>
+        'use strict';
+
+        let timeId=null;
+        
+        function printTime(){
+            const date =new Date();
+            const hh =date.getHours();
+            const mm =date.getMinutes();
+            const ss =date.getSeconds();
+            document.getElementById('result').innerHTML =hh+ ":" + mm +":"+ ss; 
+           
+        }
+        
+      
+        function startClock(){
+                timeId = setInterval(printTime, 1000);
+                stop=null;
+                
+        }
+        function stopClock(){
+            clearInterval(timeId);
+            clearInterval(stop);
+            
+        }
+        const stop =setInterval(printTime,1000);
+        
+       
+    </script>
+
+</body>
+</html>
